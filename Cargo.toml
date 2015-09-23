@@ -1,0 +1,19 @@
+[package]
+name = "trans2quik"
+version = "0.0.1"
+authors = ["Denis Kolodin <deniskolodin@gmail.com>"]
+description = "TRANS2QUIK wrapper for Rust."
+readme = "README.md"
+repository = "https://github.com/DenisKolodin/trans2quik-rs/"
+license = "MIT"
+
+include = [
+    "LICENSE",
+    "README.md",
+    "src/**/*.rs",
+    "Cargo.toml",
+    "examples/**/*.rs",
+]
+
+[dependencies]
+winapi = "~0.2"
